@@ -1,0 +1,138 @@
+SNOMED CT medical-condition concepts in CADEC — selected subset
+(sct/ layer, Drug mentions excluded). SNOMED CT metadata from the
+CSIRO Ontoserver public FHIR terminology server (SNOMED CT-AU edition).
+
+==============================================================================
+Rank 1  |  288 occurrences  |  SNOMED CT 68962001
+==============================================================================
+  Preferred term (CADEC)  : Myalgia
+  Fully Specified Name    : Muscle pain (finding)
+  Synonyms (Descriptions) : Aching muscles
+      Muscle ache
+      Muscle pain
+      Myalgia
+      Myodynia
+      Myoneuralgia
+      Myosalgia
+  Is-A (parent concepts)  : Finding of sensation of skeletal muscle (298287007)
+      Musculoskeletal pain (279069000)
+  Defining Attributes     : Finding site = Skeletal muscle structure (127954009)
+
+==============================================================================
+Rank 2  |  142 occurrences  |  SNOMED CT 57676002
+==============================================================================
+  Preferred term (CADEC)  : Arthralgia
+  Fully Specified Name    : Pain of joint (finding)
+  Synonyms (Descriptions) : Arthralgia
+      Articular pain
+      Joint pain
+      Pain of joint
+      Painful joint
+  Is-A (parent concepts)  : Finding of sensation of joint (298249004)
+      Musculoskeletal pain (279069000)
+  Defining Attributes     : Finding site = Joint structure (39352004)
+
+==============================================================================
+Rank 3  |  140 occurrences  |  SNOMED CT 84229001
+==============================================================================
+  Preferred term (CADEC)  : Fatigue
+  Fully Specified Name    : Fatigue (finding)
+  Synonyms (Descriptions) : Fatigue
+      Weariness
+  Is-A (parent concepts)  : General problem AND/OR complaint (105721009)
+      Energy and stamina finding (359752005)
+  Defining Attributes     : Interprets = Energy / stamina (359755007)
+
+==============================================================================
+Rank 4  |  139 occurrences  |  SNOMED CT 55300003
+==============================================================================
+  Preferred term (CADEC)  : Muscle cramp
+  Fully Specified Name    : Cramp (finding)
+  Synonyms (Descriptions) : Cramp
+      Cramp in muscle
+      Muscle cramp
+      Muscle cramps
+  Is-A (parent concepts)  : Musculoskeletal finding (106028002)
+      Spasm (45352006)
+      General finding of soft tissue (248402002)
+  Defining Attributes     : Finding site = Skeletal muscle structure (127954009)
+
+==============================================================================
+Rank 5  |  119 occurrences  |  SNOMED CT 35489007
+==============================================================================
+  Preferred term (CADEC)  : Depression
+  Fully Specified Name    : Depressive disorder (disorder)
+  Synonyms (Descriptions) : Depressed
+      Depression
+      Depressive disorder
+      Depressive illness
+      Mood disorder of depressed type
+  Is-A (parent concepts)  : Mood disorder (46206005)
+  Defining Attributes     : Interprets = Emotion (285854004)
+
+==============================================================================
+Rank 6  |  118 occurrences  |  SNOMED CT 162076009
+==============================================================================
+  Preferred term (CADEC)  : Excessive upper gastrointestinal gas
+  Fully Specified Name    : Excessive upper gastrointestinal gas (finding)
+  Synonyms (Descriptions) : Excessive upper gastrointestinal gas
+      Full of wind
+  Is-A (parent concepts)  : Finding of upper gastrointestinal gas (300370006)
+  Defining Attributes     : Finding site = Upper gastrointestinal tract structure (62834003)
+
+==============================================================================
+Rank 7  |  116 occurrences  |  SNOMED CT 25064002
+==============================================================================
+  Preferred term (CADEC)  : Headache
+  Fully Specified Name    : Headache (finding)
+  Synonyms (Descriptions) : Cephalalgia
+      Cephalgia
+      Cephalodynia
+      HA - Headache
+      Head pain
+      Headache
+      Pain in head
+  Is-A (parent concepts)  : Pain finding at anatomical site (279001004)
+      Head finding (406122000)
+  Defining Attributes     : Finding site = Head structure (69536005)
+
+==============================================================================
+Rank 8  |  107 occurrences  |  SNOMED CT 13791008
+==============================================================================
+  Preferred term (CADEC)  : Asthenia
+  Fully Specified Name    : Asthenia (finding)
+  Synonyms (Descriptions) : Asthenia
+      Debility
+      Feeling weak
+      General weakness
+      Lassitude
+      Weakness
+      Weakness - general
+  Is-A (parent concepts)  : General problem AND/OR complaint (105721009)
+      Energy and stamina finding (359752005)
+  Defining Attributes     : Interprets = Energy / stamina (359755007)
+
+==============================================================================
+Rank 9  |  104 occurrences  |  SNOMED CT 10601006
+==============================================================================
+  Preferred term (CADEC)  : Pain in lower limb
+  Fully Specified Name    : Pain in lower limb (finding)
+  Synonyms (Descriptions) : Leg pain
+      Pain in leg
+      Pain in lower limb
+  Is-A (parent concepts)  : Finding of sensation of lower limb (713314006)
+      Pain in limb (90834002)
+  Defining Attributes     : Laterality = Side (182353008)
+
+==============================================================================
+Rank 10  |  98 occurrences  |  SNOMED CT 161891005
+==============================================================================
+  Preferred term (CADEC)  : Backache
+  Fully Specified Name    : Backache (finding)
+  Synonyms (Descriptions) : Back ache
+      Back pain
+      Backache
+      Pain in back
+  Is-A (parent concepts)  : Pain of truncal structure (301366005)
+      Finding of back (414252009)
+  Defining Attributes     : Finding site = Structure of posterior region of trunk (77568009)

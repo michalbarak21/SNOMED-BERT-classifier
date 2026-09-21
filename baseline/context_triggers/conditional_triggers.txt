@@ -1,0 +1,81 @@
+# conditional_triggers.txt -- REPO-LOCAL, not vendored. See SOURCE.md.
+# Same format and same loader as the three vendored lists: literal <TAB><TAB> [TAG],
+# and only the tags those lists use. Every rule is [PREN], i.e. forward-scoping,
+# which is the claim these cues make: the trigger is stated before the symptom it
+# brings on. The same subordinator standing after the symptom usually reports
+# relief instead ("it settles after I sit down"), and a forward rule cannot reach
+# back to it.
+#
+# universal frequency -- the symptom recurs on every occasion of the trigger
+whenever		[PREN]
+every time		[PREN]
+each time		[PREN]
+any time		[PREN]
+anytime		[PREN]
+every single time		[PREN]
+each and every time		[PREN]
+on every occasion		[PREN]
+on every		[PREN]
+with every		[PREN]
+on days when		[PREN]
+on the days		[PREN]
+at the end of every		[PREN]
+by the end of every		[PREN]
+each night		[PREN]
+every morning		[PREN]
+#
+# restrictive -- the trigger is the only circumstance under which it happens
+only when		[PREN]
+only after		[PREN]
+only if		[PREN]
+only on		[PREN]
+only during		[PREN]
+only with		[PREN]
+as soon as		[PREN]
+the moment		[PREN]
+#
+# habitual onset dated to an ongoing exposure
+since starting		[PREN]
+since i started		[PREN]
+since she started		[PREN]
+since he started		[PREN]
+since i began		[PREN]
+since she began		[PREN]
+since he began		[PREN]
+#
+# the trigger fields of structured notes, and their prose equivalents
+trigger:		[PREN]
+triggers:		[PREN]
+brought on by		[PREN]
+precipitated by		[PREN]
+provoked by		[PREN]
+worse with		[PREN]
+worse on		[PREN]
+worse after		[PREN]
+comes on with		[PREN]
+comes on during		[PREN]
+comes on after		[PREN]
+comes on when		[PREN]
+#
+# causative constructions -- the activity is the subject, the symptom the object
+triggers		[PREN]
+provokes		[PREN]
+precipitates		[PREN]
+sets off		[PREN]
+set off		[PREN]
+brings on		[PREN]
+bring on		[PREN]
+brings it on		[PREN]
+brings them on		[PREN]
+bring it on		[PREN]
+brings her out in		[PREN]
+brings him out in		[PREN]
+brings me out in		[PREN]
+#
+# fronted circumstantial adjuncts -- "After a long walk, I become generally weak".
+# Bare temporal subordinators, so these also fire on a one-off past episode
+# ("During my last pregnancy, my leg burned"); HISTORICAL outranks CONDITIONAL in
+# pipeline.py's priority order so that reading wins when a history cue also fires.
+after		[PREN]
+following		[PREN]
+during		[PREN]

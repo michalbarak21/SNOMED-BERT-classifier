@@ -1,0 +1,15 @@
+.env
+.venv/
+
+# generated corpus shards and annotator output; the released corpus is
+# dataset.jsonl at the repo root
+data/
+
+# training runs: weights, TensorBoard logs, predictions
+runs/
+
+**/__pycache__/
+.vscode/
+.DS_Store
+
+report/
